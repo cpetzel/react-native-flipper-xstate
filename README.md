@@ -17,3 +17,6 @@ if(__DEV__){
     inspect()
 }
 ```
+
+## Todo
+* Get Typescript to work
