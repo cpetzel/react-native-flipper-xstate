@@ -18,5 +18,11 @@ if(__DEV__){
 }
 ```
 
+You also must specify the `devTools` option when creating your machines. Here is an example using the `useMachine` hook.  
+```js
+const [current, send] = createMachine(machine, {devTools: true})
+```
+
+
 ## Todo
 * Get Typescript to work

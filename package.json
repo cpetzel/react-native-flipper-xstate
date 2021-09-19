@@ -1,10 +1,13 @@
 {
   "name": "react-native-flipper-xstate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Native package that empowers the flipper xstate plugin",
   "main": "index.js",
   "repository": "https://github.com/cpetzel/react-native-flipper-xstate",
-  "author": "cpetzel",
+  "author": {
+    "name": "Craig Petzel",
+    "url": "https://github.com/cpetzel"
+  },
   "license": "MIT",
   "keywords": [
     "flipper-plugin",
