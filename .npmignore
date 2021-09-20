@@ -1,0 +1,8 @@
+# .npmignore
+src
+node_modules
+static
+yarn-error.log
+babel.config.js
+tsconfig.json
+yarn.lock

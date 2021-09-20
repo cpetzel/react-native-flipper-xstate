@@ -1,6 +1,6 @@
 {
   "name": "react-native-flipper-xstate",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "React Native package that empowers the flipper xstate plugin",
   "main": "index.js",
   "repository": "https://github.com/cpetzel/react-native-flipper-xstate",
