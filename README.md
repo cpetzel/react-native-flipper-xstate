@@ -10,6 +10,13 @@ This package depends on the native package [React Native Flipper](https://github
 
 ## Usage
 
+### Install the [Flipper plugin](https://github.com/cpetzel/flipper-plugin-xstate) on your desktop app
+
+### Install the package
+```sh
+$ yarn add react-native-flipper-xstate
+```
+
 To use, simply import and call the `inspect` function at the root of your project (index.js) You will only want to do this in Debug/Dev builds.
 
 ```js
