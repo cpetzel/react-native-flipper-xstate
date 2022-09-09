@@ -20,17 +20,15 @@ $ yarn add react-native-flipper-xstate
 To use, simply import and call the `inspect` function at the root of your project (index.js) You will only want to do this in Debug/Dev builds.
 
 ```js
-import { inspect } from "react-native-flipper-xstate";
-
 if (__DEV__) {
-  inspect();
+  require("react-native-flipper-xstate").inspect();
 }
 ```
 
 You also must specify the `devTools` option when creating your machines. Here is an example using the `useMachine` hook.
 
 ```js
-const [current, send] = createMachine(machine, { devTools: true });
+const [current, send] = createMachine(machine, { devTools: __DEV__ });
 ```
 
 ## Todo
