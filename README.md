@@ -1,4 +1,34 @@
-# react-native-flipper-xstate
+# NOTICE: This package is no longer maintained / deprecated
+The react native team has officially deprecated flipper. 
+
+### Please see [this project for a replacement](https://github.com/cpetzel/expo-xstate-inspect)
+This uses Expo DevTools and also provides an in-app floating inspector. 
+
+
+<pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+</pre>
+
+
+
+
+
+#### react-native-flipper-xstate
 
 This packages allows Android and iOS apps to use the [Flipper-plugin-xstate](https://github.com/cpetzel/flipper-plugin-xstate) plugin to visualize and interact with their [xstate](https://xstate.js.org/docs/) machines.
 
